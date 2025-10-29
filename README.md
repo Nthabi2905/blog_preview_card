@@ -79,7 +79,8 @@ Here’s a snippet I’m proud of:
   transform: translateY(-4px);
 }
 
-🚀 Continued development
+
+##🚀 Continued development
 
 In the future, I’d like to:
 
