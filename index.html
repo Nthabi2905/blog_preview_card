@@ -3,76 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-    <link rel="stylesheet" href="styles.css" />
+    <title>Blog Preview Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap"
       rel="stylesheet"
     />
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
-
-    <title>Frontend Mentor | Blog preview card</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="page">
-      <article class="card" aria-labelledby="post-title">
-        <picture class="card__media">
-          <source
-            media="(min-width:900px)"
-            srcset="assets/images/image-header-desktop.jpg"
-          />
+    <main class="card">
+      <img
+        src="active-states.jpg"
+        alt="Article illustration"
+        class="card-image"
+      />
+
+      <div class="card-content">
+        <span class="tag">Learning</span>
+        <p class="date">Published 21 Dec 2023</p>
+        <h1 class="title">HTML & CSS foundations</h1>
+        <p class="description">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <div class="author">
           <img
-            src="assets/images/image-header-mobile.jpg"
-            alt="Illustration for the blog post"
+            src="https://i.pravatar.cc/40"
+            alt="Greg Hooper"
+            class="author-img"
           />
-        </picture>
-
-        <div class="card__content">
-          <div class="card__meta">
-            <span class="tag">Category</span>
-          </div>
-
-          <h1 id="post-title" class="card__title">
-            Shift the overall look and feel by adding these wonderful touches to
-            furniture
-          </h1>
-
-          <p class="card__excerpt">
-            Ever been in a room and felt like something was missing? Perhaps
-            it's the right finishing piece — a bold pattern, a warm texture, or
-            a statement color.
-          </p>
-
-          <div class="card__footer">
-            <div class="author">
-              <img
-                class="author__avatar"
-                src="assets/images/avatar-michelle.jpg"
-                alt="Michelle Avatar"
-              />
-              <div class="author__meta">
-                <span class="author__name">Michelle Appleton</span>
-                <time datetime="2020-07-16" class="author__date"
-                  >July 16, 2020</time
-                >
-              </div>
-            </div>
-
-            <a
-              class="read-more"
-              href="#"
-              aria-label="Read more about the article"
-              >Read more</a
-            >
-          </div>
+          <p class="author-name">Greg Hooper</p>
         </div>
-      </article>
+      </div>
     </main>
   </body>
 </html>
