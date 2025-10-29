@@ -33,7 +33,7 @@ Users should be able to:
 
 ### 🖼️ Screenshot
 
-![Blog preview card screenshot](./active-states.jpg)
+![Blog preview card screenshot](/design/active-states.jpg)
 
 ---
 
