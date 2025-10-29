@@ -78,20 +78,4 @@ Here’s a snippet I’m proud of:
 .card:hover {
   transform: translateY(-4px);
 }
-
-
-##🚀 Continued development
-
-In the future, I’d like to:
-
-Add a dark mode toggle.
-
-Implement this component using React or Tailwind CSS.
-
-Experiment with CSS Grid to create a more modular card layout.
-
-
----
-
-Would you like me to tailor the **author section** with your name (“Nthabiseng Moloi”) and your links (GitHub, LinkedIn, etc.) so it’s ready to publish?
 ```
